@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container{
@@ -33,9 +34,44 @@
 
 #favorites-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap ;
   justify-content: center;
   gap: 10px;
+
+}
+
+#shows-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.show-card {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px #d9d9d9,
+              -20px -20px 60px #fff;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-card img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.show-card h3 {
+  font-family: 'bold';
+  text-align: center;
+  cursor: pointer;
+}
+
+.show-card a {
+  text-decoration: none;
+  color: black;
 }
 
 

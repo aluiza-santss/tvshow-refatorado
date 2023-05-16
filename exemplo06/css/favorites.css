@@ -38,15 +38,6 @@
   gap: 10px;
 }
 
-#shows-area {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.show-card {
-    width: 100%;
-}
 
 @media screen and (max-width: 600px) {
   #container {
@@ -74,3 +65,4 @@
   }
 
 }
+
